@@ -27,7 +27,7 @@ Documento di Design dell'applicativo:
 
   •Diagramma Dominio del problema dell'applicativo.
 
-  •Diagramma del Dominio della Soluzione
+  •Diagramma del Dominio della Soluzione dell'applicativo
   
   •Primo Sequence Diagram che descrive l'operazione di login da parte dell'utente.
 
