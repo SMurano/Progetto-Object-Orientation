@@ -13,6 +13,12 @@ I software utilizzati sono:
 
   •Lucid Chart per la produzione dei diagrammi di sequenza.
 
+APPLICATIVO:
+
+File contente l'applicativo assegnato, persente nel file .zip:
+
+•(GalleriaFotograficaGeolocalizzata.zip)
+
 E' possibile individuare all'interno di questa repository:
 
 Documentazione contenente (Documentazione.pdf):
