@@ -33,8 +33,6 @@ File in Latex (Capitolo 1.tex).
 
 Cartella (Diagrammi) contenente i diagrammi effettuati:
 
-Logo Unina (FedericoII.png).
-
 Dominio del problema ().
 
 Dominio della Soluzione ().
