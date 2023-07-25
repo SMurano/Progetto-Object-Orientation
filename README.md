@@ -15,7 +15,7 @@ Lucid Chart per la produzione dei diagrammi di sequenza.
 
 E' possibile individuare all'interno di questa repository:
 
-Documentazione contenente (main.pdf):
+Documentazione contenente (Documentazione.pdf):
 
 Documento di Design dell'applicativo:
 
