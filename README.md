@@ -25,7 +25,7 @@ Primo Sequence Diagram che descrive l'operazione di login da parte dell'utente.
 
 Secondo Sequence Diagram che descrive la ricerca dei top3luoghi e top3soggetti immortalati da parte dell'utente.
 
-Cartella TestoLatex contenetente (tutti i file .tex):
+Cartella Latex contenetente (tutti i file .tex):
 
 File in Latex (main.tex).
 
@@ -33,10 +33,10 @@ File in Latex (Capitolo 1.tex).
 
 Cartella (Diagrammi) contenente i diagrammi effettuati:
 
-Dominio del problema ().
+Dominio del problema (DominioDelProblema.png).
 
-Dominio della Soluzione ().
+Dominio della Soluzione (Modello della Soluzione Del Problema.jpg).
 
-Primo Sequence Diagram ().
+Primo Sequence Diagram (Sequence1.png): Diagramma di sequenza che definisce l'operazione di login da parte dell'utente.
 
-Secondo Sequence Diagram ().
+Secondo Sequence Diagram (Sequence2.png): Diagramma di sequenza che definisce l'operazione difiltraggio di una foto per luogo o per soggetto da parte dell'utente.
