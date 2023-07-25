@@ -27,6 +27,8 @@ Documento di Design dell'applicativo:
 
   •Diagramma Dominio del problema dell'applicativo.
 
+  •Diagramma del Dominio della Soluzione
+  
   •Primo Sequence Diagram che descrive l'operazione di login da parte dell'utente.
 
   •Secondo Sequence Diagram che descrive l'operazione di filtraggio delle foto per luogo o per soggetto da parte dell'utente.
