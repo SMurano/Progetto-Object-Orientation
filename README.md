@@ -40,3 +40,22 @@ Dominio della Soluzione (Modello della Soluzione Del Problema.jpg).
 Primo Sequence Diagram (Sequence1.png): Diagramma di sequenza che definisce l'operazione di login da parte dell'utente.
 
 Secondo Sequence Diagram (Sequence2.png): Diagramma di sequenza che definisce l'operazione difiltraggio di una foto per luogo o per soggetto da parte dell'utente.
+
+Cartella (Spiegazione Schermate), contiente al suo interno tutte le GUI presenti nel programma e le eventuali funzionalità:
+
+File presenti all'interno:
+
+(Schermata Creazione Galleria Condivisa.jpeg).
+(Schermata Inserimento Foto.jpeg).
+
+(Schermata Login.jpeg).
+
+(Schermata Registrazione.jpeg).
+
+(Schermata Ricerca Foto.jpeg).
+
+(Schermata Utente.jpeg).
+
+(Schermata Visualizzazione Fotografia.jpeg).
+
+(Schermata Visualizzazione Galleria Condivisa.jpeg).
