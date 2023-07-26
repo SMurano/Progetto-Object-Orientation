@@ -1,5 +1,5 @@
 # Progetto-Object-Orientation
-Progetto di Basi di Dati di Murano Stefano e Monte Cristian.
+Progetto di Object Orientation di Murano Stefano e Monte Cristian.
 
 TRACCIA 2: SISTEMA DI GESTIONE DI UNA GALLERIA FOTOGRAFICA GEOLOCALIZZATA CONDIVISA
 
