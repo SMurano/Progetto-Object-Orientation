@@ -1,0 +1,142 @@
+\chapter{Documentazione}
+\section{Introduzione}
+
+\subsection{Obiettivi}
+L’obiettivo del progetto descritto in tale documento è di realizzare un sistema informativo per la gestione di collezioni fotografiche geolocalizzate condivise.
+
+\section{Considerazioni sulla Traccia}
+
+\subsection{Ricerca delle Classi}
+Si sviluppi un sistema informativo, composto da una base di dati relazionale e da un applicativo Java dotato di GUI (Swing o JavaFX), 
+per la gestione di collezioni fotografiche geolocalizzate condivise. 
+Per ogni \textbf{fotografia}, identificata da un identificativo è necessario specificare \textbf{l’utente} che l’ha scattata, 
+il dispositivo con cui è stata scattata e, se necessario, il \textbf{luogo} in cui è stata scattata.  
+Il \textbf{luogo} può essere identificato da coordinate geografiche (latitudine e longitudine), 
+ma può avere anche un nome mnemonico (città, locale...) che sia comunque unico all’interno del sistema.  
+Ogni \textbf{fotografia} può avere differenti \textbf{soggetti} (paesaggi, eventi sportivi, gruppi di persone, selfie...). 
+Un \textbf{soggetto} deve essere identificato univocamente e categorizzato. Ogni textbf{foto} può raffigurare diversi \textbf{utenti}. 
+Ogni \textbf{utente} ha sempre la possibilità di vedere la propria personale galleria fotografica, che comprende esclusivamente le   \textbf{foto} scattate da lui. 
+Un \textbf{utente} può partecipare a collezioni condivise con altri \textbf{utenti} che possono contenere \textbf{foto} scattate da questi \textbf{utenti}. 
+Una \textbf{foto} può essere resa privata ed in questo caso non verrà condivisa con gli altri \textbf{utenti}. 
+Un \textbf{utente} può eliminare una \textbf{foto} ed in tal caso, questa non verrà più vista nella sua \textbf{galleria}, 
+ma resterà disponibile nelle \textbf{gallerie} degli altri \textbf{utenti}. Alcune delle operazioni che devono essere disponibili nel sistema sono:
+\newline
+-Recupero di tutte le \textbf{fotografie} che sono state scattate nello stesso \textbf{luogo};
+\newline
+-Recupero di tutte le \textbf{fotografie} che condividono lo stesso \textbf{soggetto};
+\newline
+-Classifica dei top 3 \textbf{luoghi} più immortalati.
+
+\subsection{Ricerca degli Attributi e delle Associazioni}
+Si sviluppi un sistema informativo, composto da una base di dati relazionale e da un applicativo Java dotato di GUI (Swing o JavaFX), 
+per la gestione di collezioni fotografiche geolocalizzate condivise. 
+Per ogni fotografia, \textbf{identificata} da un \textbf{identificativo} è necessario specificare l’utente che \textbf{l’ha scattata}, 
+il \textbf{dispositivo} con cui \textbf{è stata scattata} e, se necessario, \textbf{il luogo in cui è stata scattata}.  
+Il luogo \textbf{può essere identificato} da coordinate geografiche \textbf{(latitudine e longitudine)}, 
+ma può avere anche un \textbf{nome mnemonico} (città, locale...) che sia comunque unico all’interno del sistema. 
+Ogni fotografia \textbf{può avere} differenti soggetti (paesaggi, eventi sportivi, gruppi di persone, selfie...). 
+Un soggetto deve essere \textbf{identificato} univocamente e \textbf{categorizzato}. Ogni foto textbf{può raffigurare} diversi utenti. 
+Ogni utente ha sempre la possibilità di vedere la propria personale galleria fotografica, che comprende esclusivamente le foto \textbf{scattate da} lui. 
+Un utente \textbf{può partecipare} a collezioni condivise con altri utenti \textbf{che possono contenere} foto \textbf{scattate da} questi utenti. 
+Una foto può essere resa \textbf{privata} ed in questo caso non verrà condivisa con gli altri utenti. 
+Un utente può eliminare una foto ed in tal caso, questa non verrà più vista nella sua galleria, ma resterà disponibile nelle gallerie degli altri utenti. 
+Alcune delle operazioni che devono essere disponibili nel sistema sono:
+\newline
+-Recupero di tutte le fotografie \textbf{che sono state scattate} nello stesso luogo;
+\newline
+-Recupero di tutte le fotografie \textbf{che condividono} lo stesso soggetto;
+\newline
+-Classifica dei top 3 luoghi più immortalati.
+
+\subsection{Ricerca delle Generalizzazioni}
+Si sviluppi un sistema informativo, composto da una base di dati relazionale e da un applicativo Java dotato di GUI (Swing o JavaFX), 
+per la gestione di collezioni fotografiche geolocalizzate condivise. Per ogni fotografia, 
+identificata da un identificativo è necessario specificare l’utente che l’ha scattata, il dispositivo con cui è stata scattata e, se necessario, 
+il luogo in cui è stata scattata.  Il luogo può essere identificato da coordinate geografiche (latitudine e longitudine), 
+ma può avere anche un nome mnemonico (città, locale...) che sia comunque unico all’interno del sistema.
+Ogni fotografia può avere differenti soggetti (paesaggi, eventi sportivi, gruppi di persone, selfie...). 
+Un soggetto deve essere identificato univocamente e categorizzato. Ogni foto può raffigurare diversi utenti. 
+Ogni utente ha sempre la possibilità di vedere la propria \textbf{personale galleria fotografica}, che comprende esclusivamente le foto scattate da lui. 
+Un utente può partecipare a \textbf{collezioni condivise} con altri utenti che possono contenere foto scattate da questi utenti. 
+Una foto può essere resa privata ed in questo caso non verrà condivisa con gli altri utenti. 
+Un utente può eliminare una foto ed in tal caso, questa non verrà più vista nella sua galleria, ma resterà disponibile nelle gallerie degli altri utenti. 
+Alcune delle operazioni che devono essere disponibili nel sistema sono:
+\newline
+-Recupero di tutte le fotografie che sono state scattate nello stesso luogo;
+\newline
+-Recupero di tutte le fotografie che condividono lo stesso soggetto;
+\newline
+-Classifica dei top 3 luoghi più immortalati
+
+\subsection{Ricerca delle Responsabilità}
+Si sviluppi un sistema informativo, composto da una base di dati relazionale e da un applicativo Java dotato di GUI (Swing o JavaFX), 
+per la gestione di collezioni fotografiche geolocalizzate condivise. 
+Per ogni fotografia, identificata da un identificativo è necessario specificare l’utente che l’ha scattata, il dispositivo con cui è stata scattata e, se necessario, 
+il luogo in cui è stata scattata.  Il luogo può essere identificato da coordinate geografiche (latitudine e longitudine), 
+ma può avere anche un nome mnemonico (città, locale...) che sia comunque unico all’interno del sistema.  
+Ogni fotografia può avere differenti soggetti (paesaggi, eventi sportivi, gruppi di persone, selfie...). 
+Un soggetto deve essere identificato univocamente e categorizzato. Ogni foto può raffigurare diversi utenti. 
+Ogni utente ha sempre \textbf{la possibilità di vedere} la propria personale galleria fotografica, che comprende esclusivamente le foto scattate da lui. 
+Un utente può partecipare a collezioni condivise con altri utenti che possono contenere foto scattate da questi utenti. Una foto \textbf{può essere resa privata} ed in questo caso non verrà condivisa con gli altri utenti. 
+Un utente \textbf{può eliminare} una foto ed in tal caso, questa non verrà più vista nella sua galleria, ma resterà disponibile nelle gallerie degli altri utenti. 
+Alcune delle operazioni che devono essere disponibili nel sistema sono:
+\newline
+\textbf{-Recupero di tutte le fotografie che sono state scattate nello stesso luogo;}
+\newline
+\textbf{-Recupero di tutte le fotografie che condividono lo stesso soggetto;}
+\newline
+ \textbf{-Classifica dei top 3 luoghi più immortalati;}
+
+
+\section{Diagramma delle classi del dominio del problema}
+
+\includegraphics[width=1.1\textwidth]{Immagini/Modello Dominio Del Problema.png}
+
+
+\section{Diagramma di dettaglio delle classi nel dominio della soluzione}
+\includegraphics[width=1.3\textwidth]{Immagini/Modello Della Soluzione Del Problema.jpg}
+
+\section{Sequence Diagram di due Funzionalità a scelta}
+Le funzionalità scelte per l'elaborazione dei diagrammi della sequenza sono rispettivamente.
+\begin{itemize}
+    \item Processo di Login Utente (Sequence Diagram 1).
+    \item Filtraggio di Foto per luogo o per soggetto di tutte le gallerie di cui fà parte (Sequence Diagram 2).
+\end{itemize}
+
+
+
+
+\subsection{Sequence Diagram 1}
+\includegraphics[width=1.3\textwidth]{Immagini/Sequence1.png}
+\subsection{Operazioni}
+Il Sequence diagram riportato in tale immagine, rappresenta il diagramma di  sequenza dell’azione di Login di un Utente. L’utente inserisce nella GUI Login  il suo Nickname e la sua Password. I dati inseriti dall’utente vengono controllati nella forma, se presentano caratteri illegali o lunghezza superiore od inferiore a quella consentita viene inviato un messaggio di errore all’utente. Le credenziali vengono poi raccolte dalla classe controller ed inviate alla classe ImplementazioneutenteDAO.  La classe ImplementazioneutenteDAO invia una Query al DataBase. Se le credenziali inserite dall’utente sono presenti nel DataBase l’utente viene introdotto nella sua schermata Home, altrimenti gli viene notificata la sua inesistenza.
+
+\subsection{Sequence Diagram 2}
+\includegraphics[width=1.3\textwidth]{Immagini/Sequence2.png}
+\subsection{Operazioni}
+Il Sequence diagram riportato in tale immagine, rappresenta il diagramma di sequenza dell’azione di Filtraggio Foto di un Utente. L’utente seleziona il bottone Ricerca Foto dalla GUI Schermata Utente per applicare un filtro alle foto presenti nel sistema e viene portato nella GUI RicercaFoto, qui l’utente sceglie il filtro da applicare, se per luogo di scatto o soggetto rappresentato. In base al filtro scelto vengono richieste diverse informazioni. Se si sceglie un filtraggio per luogo di scatto, viene richiesto il nome del luogo, se si sceglie un filtraggio per soggetto rappresentato vengono richiesti nome e tipo del soggetto. La ricerca inizia clickando sul bottone cerca cerca. Le informazioni ed il tipo di filtro vengono raccolti dal controller ed inviati alla classe ImplementazioneSoggettoDAO se si sta filtrando per soggetto oppure alla classe ImplementazioneLuogoDAO se si sta filtrando per luogo. La classe scelta dal controller invia una query al DataBase e riceve le foto presenti nel Database che soddisfano il filtro applicato. Le foto recuperate verranno poi fatte risalire fino ad essere visualizzate nella GUI Schermata RicercaFoto
+
+\section{GUI Presenti nel programma}
+\subsection{Schermata Login}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Login.jpeg}
+
+\subsection{Schermata Registrazione}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Registrazione.jpeg}
+
+\subsection{Schermata Utente}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Utente.jpeg}
+
+\subsection{Schermata Inserimento Foto}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Inserimento Foto.jpeg}
+
+\subsection{Schermata Visualizzazione Fotografia}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Visualizzazione Fotografia.jpeg}
+
+\subsection{Schermata Ricerca Foto}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Ricerca Foto.jpeg}
+
+\subsection{Schermata Visualizzazione Galleria Condivisa}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Visualizzazione Galleria Condivisa.jpeg}
+
+\subsection{Schermata Creazione Galleria Condivisa}
+\includegraphics[width=1.3\textwidth]{Immagini/Schermata Creazione Galleria Condivisa.jpeg}
